@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff9ec">
+  <meta name="description" content="Un pequeño jardín de recuerdos para el Día de las Flores Amarillas.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Para ti, con flores amarillas 💛">
+  <meta property="og:description" content="Un pequeño jardín de recuerdos para ti.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='7' fill='%238b602b'/%3E%3Cg fill='%23f2c94c'%3E%3Cellipse cx='16' cy='5' rx='4' ry='7'/%3E%3Cellipse cx='16' cy='27' rx='4' ry='7'/%3E%3Cellipse cx='5' cy='16' rx='7' ry='4'/%3E%3Cellipse cx='27' cy='16' rx='7' ry='4'/%3E%3C/g%3E%3C/svg%3E">
+  <title>Para ti, con flores amarillas 💛</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="experience" id="experience">
+    <div class="ambient-glow" aria-hidden="true"></div>
+    <div class="petal-layer" id="petal-layer" aria-hidden="true"></div>
+    <div class="sparkle-layer" id="sparkle-layer" aria-hidden="true"></div>
+
+    <section class="scene intro-scene is-active" id="intro-scene" aria-labelledby="intro-title">
+      <div class="intro-orbit intro-orbit--one" aria-hidden="true"></div>
+      <div class="intro-orbit intro-orbit--two" aria-hidden="true"></div>
+      <div class="intro-content">
+        <div class="sun-seal" aria-hidden="true">
+          <svg viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="28" stroke="currentColor" stroke-width="1.2"/><circle cx="50" cy="50" r="17" fill="currentColor" opacity=".15"/><path d="M50 3v13M50 84v13M3 50h13M84 50h13M17 17l9 9M74 74l9 9M83 17l-9 9M26 74l-9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <p class="eyebrow">UN PEQUEÑO REGALO PARA TI</p>
+        <h1 id="intro-title">Gracias por estos<br><em>meses a mi lado</em></h1>
+        <p class="intro-subtitle">Hay recuerdos que florecen para siempre.</p>
+        <button class="start-button" id="start-button" type="button">
+          <span>Iniciar presentación</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="intro-footnote">Hecho con mucho cariño <span aria-hidden="true">✦</span> Solo toma unos segundos</p>
+      </div>
+      <div class="intro-flower intro-flower--left" aria-hidden="true"><span class="intro-flower__stem"></span><span class="intro-flower__head">✿</span></div>
+      <div class="intro-flower intro-flower--right" aria-hidden="true"><span class="intro-flower__stem"></span><span class="intro-flower__head">✿</span></div>
+    </section>
+
+    <section class="scene flower-scene" id="flower-scene" aria-label="Jardín de flores amarillas" aria-hidden="true">
+      <div class="flower-wash" aria-hidden="true"></div>
+      <div class="flower-field" id="flower-field" aria-hidden="true"></div>
+      <div class="garden-vignette" aria-hidden="true"></div>
+      <div class="phrase-wrap">
+        <p class="eyebrow eyebrow--light">PARA TI, MI PERSONA FAVORITA</p>
+        <p class="garden-phrase" id="garden-phrase" aria-live="polite"></p>
+        <span class="phrase-divider" aria-hidden="true">✦</span>
+      </div>
+      <p class="garden-hint">Cada flor es un gracias</p>
+    </section>
+
+    <section class="scene collage-scene" id="collage-scene" aria-labelledby="collage-title" aria-hidden="true">
+      <div class="collage-backdrop" aria-hidden="true"></div>
+      <div class="collage-content">
+        <div class="collage-heading">
+          <p class="eyebrow">LOS RECUERDOS MÁS BONITOS</p>
+          <h2 id="collage-title">Gracias por estos<br><em>meses a mi lado</em></h2>
+        </div>
+        <div class="collage-board" id="collage-board" aria-label="Collage de nuestros recuerdos"></div>
+        <div class="collage-decoration collage-decoration--left" aria-hidden="true">✿</div>
+        <div class="collage-decoration collage-decoration--right" aria-hidden="true">✿</div>
+      </div>
+    </section>
+
+    <section class="scene final-scene" id="final-scene" aria-labelledby="final-title" aria-hidden="true">
+      <div class="final-halo" aria-hidden="true"></div>
+      <div class="final-flower-field" id="final-flower-field" aria-hidden="true"></div>
+      <div class="final-content">
+        <div class="final-mark" aria-hidden="true">✦</div>
+        <p class="eyebrow">UN ÚLTIMO PENSAMIENTO</p>
+        <h2 id="final-title">Para nosotros, <em>siempre</em></h2>
+        <p class="final-message">Tal vez estas flores no puedan durar para siempre, pero espero que todos los momentos que estamos creando sí lo hagan. Gracias por estos meses a mi lado y por cada recuerdo que hemos creado juntos. 💛🌻</p>
+        <div class="final-rule" aria-hidden="true"><span>✿</span></div>
+        <p class="final-wish">Feliz Día de las Flores Amarillas 💛</p>
+      </div>
+    </section>
+
+    <button class="music-button" id="music-button" type="button" aria-label="Desactivar música" aria-pressed="true" hidden>
+      <svg class="music-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13M9 8l11-2M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm11-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="music-slash" aria-hidden="true"></span>
+    </button>
+    <div class="progress-track" id="progress-track" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+  </main>
+</body>
+</html>
